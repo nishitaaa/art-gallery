@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Information</title>
+
+<script type="text/javascript">
+
+function phoneNum(input) {
+	var number = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+	if(input.value.match(number)) {
+		return true;
+	} else {
+		alert("message");
+		return false;
+	}
+}
+
+</script>
+</head>
+
+<body>
+
+<form action="info.php" method="post">
+
+<input type="radio" name="pics" value="$80 million" id="pic1-radio">
+<label for="pic1-radio"><img src="https://www.muralswallpaper.co.uk/app/uploads/starry-night-art-plain.jpg" height="100" width="100"></label>
+<p>Price: $80 million</p>
+
+<input type="radio" name="pics" value="$150 million" id="pic2-radio">
+<label for="pic2-radio"><img src="https://www.fulcrumgallery.com/product-images/P820354-10/michelangelo-creation-of-man.jpg" height="100" width="100"></label>
+<p>Price: $150 million</p>
+
+<input type="radio" name="pics" value="$100 million" id="pic3-radio">
+<label for="pic3-radio"><img src="https://media1.britannica.com/eb-media/24/189624-004-93915DC4.jpg" height="100" width="100"></label>
+<p>Price: $100 million</p>
+
+<input type="radio" name="pics" value="$7 million" id="pic4-radio">
+<label for="pic4-radio"><img src="https://www.gannett-cdn.com/-mm-/cd33bd15897a848c56f7474cb7c853fd2e881f2c/c=180-0-4688-6001&r=537&c=0-0-534-712/local/-/media/Cincinnati/Cincinnati/2014/08/22/1408740930000-American-GothicA.jpg" height="100" width="100"></label>
+<p>Price: $7 million</p>
+
+<input type="radio" name="pics" value="$120 million" id="pic5-radio">
+<label for="pic5-radio"><img src="https://qph.ec.quoracdn.net/main-qimg-ffd1dc0f36bdd4fbc50f3623ea292800-c" height="100" width="100"></label>
+<p>Price: $120 million</p>
+
+<p>Payment Information: </p>
+First Name: <input type="text" name="fname" required><br>
+Last Name: <input type="text" name="lname" required><br>
+Address: <input type="text" name="address" required><br>
+
+<br>
+Submit: <input type="submit" name="submit">
+Reset: <input type="reset" name="clear">
+
+
+</form>
+</body>
+</html>
+

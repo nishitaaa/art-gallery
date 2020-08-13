@@ -1,0 +1,27 @@
+.test {
+	text-align: center;
+}
+
+.hide {
+	display: none;
+}
+
+
+#listofmenus  {
+	
+  text-align: left;
+  margin-left: 80px;
+  
+}
+
+ul {
+	list-style-type: none;
+}
+p {
+	font-size: 20px;
+}
+
+.search-container {
+	text-align: right;
+	margin-top: 12px;
+}

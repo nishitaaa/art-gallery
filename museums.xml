@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="museums.xsl"?>
+
+<museums>
+	<museum>
+		<name>Museum of Modern Art</name>
+		<description>The Museum of Modern Art opened in 1929 in New York City. The Museum has a large collection of artwork: more than 150, 000 exhibition pieces, 22, 000 films, and 300, 000 books.</description>
+	</museum>
+
+	<museum>
+		<name>Sistine Chapel</name>
+		<description>The Sistine Chapel is a Roman Catholic chapel in Vatican City, Rome. It was originally known as the Cappela Magna and was renamed by Pope Sixtus IV between 1477 and 1480 as it was being restored. Before Michelangelo painted the ceiling, an artist Piero Matteo dAmelia painted a blue night sky with golden stars.</description>
+	</museum>
+
+	<museum>
+		<name>Musee du Louvre</name>
+		<description>The Louvre Museum in Paris, France is one of the biggest museums in the world and it displays about 380, 000 pieces of art in total although not all art pieces shown to the public. The Musee du Louvre was not originally a museum, it was a fortress built in 1190. Then it was turned into a royal palace in the 16th century, and the French Monarchy moved to another location and opened the Louvre Museum to the public.</description>
+	</museum>
+
+	<museum>
+		<name>Art Institute of Chicago</name>
+		<description>The Art Institute of Chicago has the second largest collection of Impressionist artworks in the world. The museum showcases about 300, 000 works of art, that range from Ancient and Byzantine art to Modern art.</description>
+	</museum>
+
+	<museum>
+		<name>National Gallery of Art</name>
+		<description>The National Gallery was established in 1842 and contains European paintings from many famous painters such as, El Greco and Andrea Locatelli. There are 19th - 20th century international paintings by Armand Guillaumin and Carl Sohn. As well, there are Norwegian paintings by Adlop Tidemand and Hans Gude.</description>
+	</museum>
+</museums>
+
+
+

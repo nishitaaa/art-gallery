@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="artworks.xsl"?>
+<artworks> 
+	<artwork> 
+		<id>1</id>
+		<name>Starry Night</name>
+		<date1>1889</date1>
+		<type>Oil on canvas</type>
+		<dimensions>73.7cm x 92.1 cm</dimensions>
+		<location>Museum of Modern Art, New York City</location>
+		<artist>Vincent van Gogh</artist>
+		<price>$150-$300 million</price>
+		<genre>Post-Impressionism and Modern Art</genre>
+	</artwork>
+	
+	<artwork> 
+		<id>2</id>
+		<name>Creation of Man</name>
+		<date1>1512</date1>
+		<type> Paint, Plaster</type>
+		<dimensions>280 cm x 570 cm </dimensions>
+		<location>Sistine Chapel, Vatican City</location>
+		<artist>Michelangelo</artist>
+		<price>Not for sale</price>
+		<genre>Renaissance, Italian Renaissance, High Renaissance</genre>
+	</artwork>
+	
+	<artwork> 
+		<id>3</id>
+		<name>Mona Lisa</name>
+		<date1>1517</date1>
+		<type>Oil on poplar panel</type>
+		<dimensions>77 cm x 53 cm</dimensions>
+		<location>Musee du Louvre, Paris</location>
+		<artist>Leonardo da Vinci</artist>
+		<price>$800 million</price>
+		<genre>Italian Renaissance</genre>
+	</artwork>
+
+	<artwork> 
+		<id>4</id>
+		<name>American Gothic</name>
+		<date1>1930</date1>
+		<type>Oil on beaverboard</type>
+		<dimensions>78 cm x 65.3 cm</dimensions>
+		<location>Art Institute of Chicago</location>
+		<artist>Grant Wood</artist>
+		<price>$6.96 million</price>
+		<genre>Modernism</genre>
+	</artwork>
+
+	<artwork> 
+		<id>5</id>
+		<name>The Scream</name>
+		<date1>1893</date1>
+		<type>Oil, tempera, pastel, crayon on cardboard</type>
+		<dimensions>91 cm x 73.5 cm</dimensions>
+		<location>National Gallery, Oslo, Norway</location>
+		<artist>Edvard Munch</artist>
+		<price>$6.96 million</price>
+		<genre>Expressionism </genre>
+	</artwork>
+	 
+</artworks>
+	

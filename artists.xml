@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="artists.xsl"?>
+<artists> 
+	<artist> 
+		<id>1</id>
+		<name>Vincent van Gogh</name>
+		<birth>1853-03-30</birth>
+		<death>1890-07-29</death>
+		<living>Zundert, The Netherlands</living>
+		<genre>eo-Impressionism</genre>
+		<famous>The Starry Night, Sorrow</famous>
+	</artist>
+	 
+	<artist> 
+		<id>2</id>
+		<name>Michelangelo</name>
+		<birth>1475-03-06</birth>
+		<death>1564-02-18</death>
+		<living>Tuscany, Italy</living>
+		<genre>Renaissance</genre>
+		<famous>The Last Judgement, David</famous>
+	</artist> 
+
+	<artist> 
+		<id>3</id>
+		<name>Leonardo da Vinci</name>
+		<birth>1452-04-15</birth>
+		<death>1519-05-02</death>
+		<living>Amboise, Kingdom of France</living>
+		<genre>High Renaissance</genre>
+		<famous>The Last Supper</famous>
+	</artist> 
+
+	<artist> 
+		<id>4</id>
+		<name>Grant Wood</name>
+		<birth>1891-02-13</birth>
+		<death>1942-02-12</death>
+		<living>Iowa, United States</living>
+		<genre>Modern Art</genre>
+		<famous>Young Corn, Spring in the Country</famous>
+	</artist>
+ 
+	<artist> 
+		<id>5</id>
+		<name>Edvard Munch</name>
+		<birth>1863-12-12</birth>
+		<death>1944-01-23</death>
+		<living>Oslo, Norway</living>
+		<genre>Expressionism</genre>
+		<famous>Vampire, Anxiety</famous>
+	</artist>
+
+</artists>

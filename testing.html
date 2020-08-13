@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<form method="post" action="search1.php">
+    <input type="hidden" name="submitted" value="true" />
+
+<label>Search Category:
+<select name="category">
+	<option value="Mike">Michealangelo</option>
+	<option value="Grant Wood">Grant Wood</option>
+	<option value="Munch">Edvard Munch</option>
+</select>
+</label>
+<label> Search Criteria: <input type="text" name="criteria"/></label>
+<input type="submit"/>
+</form>
+
+<?php
+
+
+if(isset($_POST['submitted'])) {
+
+include('connect.php');
+$category = $_POST['category'];
+$criteria = $_POST['criteria'];
+$query = "SELECT * FROM Artists WHERE $category = 'Grant Wood'";
+$result = mysqli_query($dbcon, $query) or die('Error getting data');
+
+echo "<table>";
+echo "<tr><th> </th></tr>";
+
+while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+
+	echo "Name: " . $row["name"]";
+}
+}
+
+
+
+?>
+
+<form method="post" action="artists.php">
+    <input type="submit" value="Logout" />
+</form>
+
+<a href="artists.php">Logout</a>
+
+<a href="https://www.fulcrumgallery.com/product-images/P820354-10/michelangelo-creation-of-man.jpg">Starry Night</a>
+<
+
+</body>
+</html>
+
+
+
+
+
+-------------------
+<html>
+<head>
+</head>
+<body>
+<form method="post" action="search1.php">
+    <input type="hidden" name="submitted" value="true" />
+
+<label>Search Category:
+<select name="category">
+	<option value="Mike">Michealangelo</option>
+	<option value="Wood">Grant Wood</option>
+	<option value="Munch">Edvard Munch</option>
+</select>
+</label>
+<input type="submit"/>
+</form>
+
+<?php
+if(isset($_POST['submitted'])) {
+
+include('connect.php');
+//$category = $_POST['category'];
+
+//if ($category = "Wood") {
+$query = "SELECT * FROM Artists";
+$result = mysqli_query($dbcon, $query) or die('Error getting data');
+
+
+	while ($row = mysqli_fetch_array($result)) {
+
+		echo  $row["name"];
+ 
+
+	}
+}
+//}
+
+
+
+?>
+
+<form method="post" action="artists.php">
+    <input type="submit" value="Logout" />
+</form>
+
+<a href="artists.php">Logout</a>
+
+<a href="https://www.fulcrumgallery.com/product-images/P820354-10/michelangelo-creation-of-man.jpg">Starry Night</a>
+<
+
+</body>
+</html>
